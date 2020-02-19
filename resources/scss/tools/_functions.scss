@@ -5,3 +5,7 @@
 /// @author Justin Tadlock <justintadlock@gmail.com>
 /// @link   https://themehybrid.com/themes/mythic
 ////
+
+@function em($target, $context: 16) {
+	@return $target / $context + 0em;
+}
