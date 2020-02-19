@@ -21,7 +21,7 @@
 // Right alignment.
 .alignright {
 	@media( min-width: content-width() / 2 ) {
-		float:     left;
+		float:     right;
 		margin:    0 0 1.5rem 1.5rem;
 		max-width: 50%;
 	}
