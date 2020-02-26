@@ -6,6 +6,7 @@
 </head>
 
 <body <?php Hybrid\Attr\display( 'body' ) ?>>
+<?php wp_body_open(); ?>
 
 <div class="app">
 
